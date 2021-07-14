@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 //mongoose.connect("mongodb://localhost:27017/todolistDB",{useUnifiedTopology: true,useNewUrlParser: true});;
-mongoose.connect("mongodb+srv://admin-akash:Akash123@cluster0.rciuz.mongodb.net/todolistDB?retryWrites=true&w=majority",{useUnifiedTopology: true,useNewUrlParser: true});;
+mongoose.connect("mongodb+srv://admin-<name>:<password>@cluster0.rciuz.mongodb.net/todolistDB?retryWrites=true&w=majority",{useUnifiedTopology: true,useNewUrlParser: true});;
 
 
 const itemsSchema = {
